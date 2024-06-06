@@ -1,0 +1,41 @@
+h1 {
+    color: #29E903;
+    font-size: 56px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: #195E0C;
+    margin: 40px;
+    border: 1px #33873F solid;
+    border-radius: 40px;
+    box-shadow: 0 0 23px black;
+    padding: 20px;
+    
+}
+
+img {
+    display: block;
+    border-radius: 30px;
+    box-shadow: 0 0 34px black;
+    margin: auto;
+}
+img:hover{
+    transform: scale(1.03);
+    transition: all 1s;
+}
+body{
+    background-color: #96CA84;
+}
+button{
+    position: absolute;
+    border-radius: 45px;
+    right: 0;
+    color: rgb(47, 212, 14);
+    background-color: rgb(25, 97, 11);
+}
+button:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+button:active{
+    background-color:rgb(10, 30, 2) ;
+}
