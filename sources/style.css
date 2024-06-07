@@ -1,19 +1,25 @@
+body{
+    background-color: #96CA84;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 0;
+    text-align: center;
+    background-color: rgb(51, 155, 74);
+}
 h1 {
     color: #29E903;
-    font-size: 56px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    background-color: #195E0C;
-    margin: 40px;
-    border: 1px #33873F solid;
-    border-radius: 40px;
-    box-shadow: 0 0 23px black;
-    padding: 20px;
-    
+    margin: 0;
+}
+
+main{
+    display: flex;
 }
 
 img {
-    display: block;
     border-radius: 30px;
     box-shadow: 0 0 34px black;
     margin: 40px 70px 80px 30px;
@@ -24,28 +30,8 @@ img:hover{
     transform: scale(1.03);
     transition: all 1s;
 }
-body{
-    background-color: #96CA84;
-}
-button{
-    position: absolute;
-    border-radius: 45px;
-    right: 0;
-    color: rgb(47, 212, 14);
-    background-color: rgb(25, 97, 11);
-}
-button:hover{
-    transform: scale(1.1);
-    transition: transform 1s;
-}
-button:active{
-    background-color:rgb(10, 30, 2) ;
-}
 .textinf{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(183, 234, 162);
-    width: 900px;
-    display: block ;
-
-
+    height: fit-content;
+    margin: 40px 50px 0 auto;
 }
