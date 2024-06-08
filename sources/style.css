@@ -1,5 +1,5 @@
-body{
-    background-color: #96CA84;
+body, html{
+    background: linear-gradient(#BBC7D5, #1E2A37);
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
     margin: 0;
@@ -8,10 +8,10 @@ body{
 header{
     margin: 0;
     text-align: center;
-    background-color: rgb(51, 155, 74);
+    background: linear-gradient(to right, #34312D, #55687D, #34312D )
 }
 h1 {
-    color: #29E903;
+    color: white;
     margin: 0;
 }
 
@@ -31,7 +31,6 @@ img:hover{
     transition: all 1s;
 }
 .textinf{
-    background-color: rgb(183, 234, 162);
     height: fit-content;
     margin: 40px 50px 0 auto;
 }
